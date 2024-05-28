@@ -1,27 +1,94 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+	<link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+	<title>Concurso gastronómico</title>
+	<meta name="viewport" content="width=device-width">
+	<meta name="author" content="María Rosa Aravid">
+	<meta name="description" content="Concurso gastronómico">
+
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+
+</head>
+
+<body class="bg-brick-pattern bg-cover text-slate-100 m-0 bg-no-repeat bg-slate-950">
+	<div class="w-2/3 mx-auto">
+
+		<include src="./views/header.html"></include>
+
+		<main class="py-3">
+			<div class="mx-auto">
+				<div class="">
+					<h2 class="text-3xl font-neon text-cyan-200 text-center">Descubre el emocionante mundo de los <span class="text-shadow-title">cócteles</span>, donde la <span class="text-shadow-title">naranja</span> es la estrella indiscutible.</h2>
+				</div>
+			</div>
+			
+			<div class="mx-auto my-3 flex flex-wrap justify-between">
+
+				<section class="first-page">
+					
+					<div class="grid grid-cols-2 align-center">
+						
+						<img src="./assets/images/portada.svg" class="grid-container__img" alt="Concurso de Coctelería">
+						
+						<div class="text-center mx-auto py-5">
+							<h2 class="text-7xl text-pink-300 font-neon text-shadow-pink">concurso de COC<span class="main__letter">TEL</span>ERÍ<span class="main__letter--second">A</span></h2>
+							<p class="text-2xl mt-3 font-neon text-cyan-200">En el concurso de <span class="text-shadow-title">cócteles</span> con <span class="text-shadow-title">naranja de Valencia</span>, celebramos la riqueza gastronómica y cultural de nuestra región a través de la creatividad en la mixología.</p>
+						</div>
+
+						<div class="text-center mx-auto py-5">
+							<h3 class="text-7xl mt-3 font-neon text-yellow-100 text-shadow-yellow">¡Únete a n<span class="main__letter--second">o</span>sotr<span class="main__letter">o</span>s</h3>
+							<p class="text-2xl mt-3 font-neon text-cyan-200">en este <span class="text-shadow-title">concurso gastronómico</span> único y demuestra tus habilidades para mezclar y combina este ingrediente en una explosión de <span class="text-shadow-title">sabor cítrico</span>!</p>
+						</div>
+
+						<img src="./assets/images/cocteles-2.png" class="grid-container__img--intro" alt="Concurso de Coctelería"  width="170">
+					</div>
+					
+				</section>
+
+				<section class="my-8">
+					<h2 class="text-4xl text-center my-3 text-orange-500 font-neon text-shadow-neon text-7xl">BAS<span class="main__letter">E</span>S</h2>
+					<div class="font-barlow text-orange-500 text-center text-xl">
+						<p class="mb-5">
+							<strong class="block font-neon text-shadow-neon font-light">Nombre del concurso</strong>Sabor a Valencia</p>
+
+						<p class="mb-5">
+							<strong class="block font-neon text-shadow-neon font-light">Tema del concurso</strong>Utilización de la naranja en la elaboración de cócteles.</p>
+					
+						<p class="mb-5">
+							<strong class="block font-neon text-shadow-neon font-light">Descripción</strong>Sabor a Valencia es un concurso de coctelería que celebra la versatilidad y el sabor único de la naranja, símbolo de la región de Valencia. Los participantes tendrán la oportunidad de demostrar su creatividad al crear cócteles originales que resalten las cualidades de esta fruta.</p>
+					
+						<p class="mb-5">
+							<strong class="block font-neon text-shadow-neon font-light">Categoría</strong>Creación original</p>
+
+						<p class="mb-5">
+							<strong class="block font-neon text-shadow-neon font-light">Requisitos del cóctel</strong>
+							El cóctel debe ser una creación original del participante.
+							Debe incluir al menos un ingrediente a base de naranja, que puede ser zumo, licor o mermelada, entre otros.
+							Se permiten otros ingredientes y licores para complementar el sabor y la presentación del cóctel.
+							Los participantes pueden utilizar técnicas de mixología innovadoras y decoraciones creativas para realzar la experiencia sensorial del cóctel.
+						</p>
+
+						<p class="mb-5">
+							<strong class="block font-neon text-shadow-neon font-light">Jurado</strong>El jurado estará compuesto por expertos en coctelería y gastronomía, quienes evaluarán los cócteles en función de su sabor, originalidad, presentación y equilibrio de ingredientes.</p>
+					</div>
+				</section>
+
+			</div>
+		</main>
+
+		<include src="./views/footer.html"></include>
+	</div>
+
+    <script type="module" src="./assets/scripts/main.js"></script>
+
+</body>
 </html>
+
