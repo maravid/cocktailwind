@@ -19,18 +19,17 @@
 </head>
 
 <body class="bg-brick-pattern bg-cover text-slate-100 m-0 bg-no-repeat bg-slate-950">
-	<div class="w-11/12 lg:w-2/3 mx-auto">
+	<div class="mx-auto">
 
 		<include src="./views/header.html"></include>
+		<include src="./views/subtitle.html"></include>
 
 		<main class="py-3">
-			<div class="mx-auto">
-				<div class="">
-					<h2 class="text-3xl font-neon text-cyan-200 text-center">Descubre el emocionante mundo de los <span class="text-shadow-title">cócteles</span>, donde la <span class="text-shadow-title">naranja</span> es la estrella indiscutible.</h2>
-				</div>
+			<div class="w-3/5 mx-auto">
+				<h2 class="text-3xl font-neon text-cyan-200 text-center">Descubre el emocionante mundo de los <span class="text-shadow-title">cócteles</span>, donde la <span class="text-shadow-title">naranja</span> es la estrella indiscutible.</h2>
 			</div>
 			
-			<div class="mx-auto my-3 flex flex-wrap justify-between">
+			<div class="mx-auto my-3 flex flex-wrap justify-between w-11/12 lg:w-2/3">
 
 				<section class="first-page">
 					
@@ -54,7 +53,7 @@
 				</section>
 
 				<section class="my-8">
-					<h2 class="text-4xl text-center my-3 text-orange-500 font-neon text-shadow-neon text-7xl">BAS<span class="animate-blink2">E</span>S</h2>
+					<h2 class="title">BAS<span class="animate-blink2">E</span>S</h2>
 					<div class="font-barlow text-orange-500 text-center text-xl">
 						<p class="mb-5">
 							<strong class="block font-neon text-shadow-neon font-thin">Nombre del concurso</strong>Sabor a Valencia</p>
@@ -84,7 +83,9 @@
 			</div>
 		</main>
 
+		<include src="./views/webmap.html"></include>
 		<include src="./views/footer.html"></include>
+		
 	</div>
 
     <script type="module" src="./assets/scripts/main.js"></script>

@@ -21,6 +21,40 @@
 @tailwind base;
 @tailwind components;
 
+
+/* Título principal */
+
+.title {
+  @apply text-center my-3 text-orange-500 font-neon text-shadow-neon text-7xl;
+}
+
+
+/* Menú en la cabecera */
+
+.menu-link {
+    @apply ml-5 block lg:inline-block text-cyan-200; 
+    &:hover { 
+        @apply text-shadow-title; 
+    }
+}
+
+
+/* Pie de página */
+
+.footer-item {
+    @apply block lg:inline-block leading-tight;
+}
+
+.footer-link {
+    &:hover {
+        @apply text-shadow-title;
+    }
+}
+
+.footer-separator {
+    @apply mx-2 hidden lg:inline;
+}
+
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
