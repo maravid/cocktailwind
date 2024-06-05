@@ -28,6 +28,15 @@
   @apply text-center my-3 text-orange-500 font-neon text-shadow-neon text-7xl;
 }
 
+/* Página principal */
+
+.bases {
+    @apply block font-neon text-shadow-neon font-thin;
+}
+
+.texto-bases {
+    @apply mb-5 leading-tight md:leading-snug;
+}
 
 /* Menú en la cabecera */
 

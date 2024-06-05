@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
+      screens: {
+        'gr': '992px',
+      },
       fontFamily: {
         'barlow': ['"Barlow Condensed"', 'sans-serif'],
         'neon': ['"Tilt Neon"', 'cursive'],
